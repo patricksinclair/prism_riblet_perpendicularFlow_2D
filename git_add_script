@@ -3,7 +3,7 @@
 #add an argument when you run the script, this will be the commit title
 
 #because system is so big, need to delete this file to accommodate github file limits
-rm 2D_riblet/constant/polyMesh/faces
+#rm 2D_riblet/constant/polyMesh/faces
 
 git add git_add_script README.txt
 git add 2D_riblet/0 2D_riblet/system 2D_riblet/constant
@@ -12,6 +12,6 @@ git add 2D_riblet/parameters.dat
 git add 2D_riblet/interpolater_script.sh
 git add 2D_riblet/time-derivatives-3D.ipynb 2D_riblet/drag_integrator.ipynb
 
-#git commit -m "$1"
+git commit -m "$1"
 
-#git push -u origin master
+git push -u origin main
